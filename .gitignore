@@ -5,6 +5,11 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+<<<<<<< Updated upstream
+=======
+node_module
+node_modules/@next/swc-win32-x64-msvc/next-swc.win32-x64-msvc.node
+>>>>>>> Stashed changes
 
 # testing
 /coverage
