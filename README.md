@@ -48,34 +48,36 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
-Project Overview
-Backend API Development
 
-Developed a Node.js/Express backend API for user sign-up.
-Followed clean architecture principles to organize code effectively.
-Implemented middleware for handling edge cases and validations.
-API Features
 
-Implemented endpoints for user sign-up with validations for all input fields.
-Used express-validator for robust validation handling.
-Client-Side Integration
+### Project Overview
 
-Integrated with a React frontend using ShadCN and react-hook-form.
-Implemented client-side form validations and error handling.
-Added a toggle feature for dark mode using useState in React.
-Project Structure
+- **Backend API Development**
+  - Developed a Node.js/Express backend API for user sign-up.
+  - Followed clean architecture principles to organize code effectively.
+  - Implemented middleware for handling edge cases and validations.
 
-/src
-/controllers: Contains API route handlers.
-/middlewares: Custom middleware functions.
-/routes: Route definitions for API endpoints.
-app.js: Entry point for Express application.
-Deployment and Testing
+- **API Features**
+  - Implemented endpoints for user sign-up with validations for all input fields.
+  - Used `express-validator` for robust validation handling.
 
-Deployed backend on a cloud platform (mention specific platform if applicable).
-Tested API endpoints using tools like Postman for functionality and error handling.
-Additional Notes
+- **Client-Side Integration**
+  - Integrated with a React frontend using `ShadCN` and `react-hook-form`.
+  - Implemented client-side form validations and error handling.
+  - Added a toggle feature for dark mode using `useState` in React.
 
-Managed project using Git for version control, with commits reflecting incremental changes.
-Ensured compatibility and responsiveness for the frontend design.
-Included a .gitignore file to exclude sensitive information from version control.
+- **Project Structure**
+  - **`/src`**
+    - **`/controllers`**: Contains API route handlers.
+    - **`/middlewares`**: Custom middleware functions.
+    - **`/routes`**: Route definitions for API endpoints.
+    - **`app.js`**: Entry point for Express application.
+
+- **Deployment and Testing**
+  - Deployed backend on a cloud platform (mention specific platform if applicable).
+  - Tested API endpoints using tools like Postman for functionality and error handling.
+
+- **Additional Notes**
+  - Managed project using Git for version control, with commits reflecting incremental changes.
+  - Ensured compatibility and responsiveness for the frontend design.
+  - Included a `.gitignore` file to exclude sensitive information from version control.
